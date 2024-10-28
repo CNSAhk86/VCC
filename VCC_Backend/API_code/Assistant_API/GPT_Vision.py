@@ -1,7 +1,7 @@
 from openai import OpenAI
 
-api_key = 'sk-proj-791sIvdv01kwVTveNwELT3BlbkFJiu6rvaxwA5N5EcTaLLJV'
-ASSISTANT_ID = 'asst_yJuMr3KHNBUDIXgBhhO14A8f'
+api_key = 'API 키 입력'
+ASSISTANT_ID = '어시스턴트 키 입력'
 client = OpenAI(api_key=api_key)
 
 # Step 1: Upload the image

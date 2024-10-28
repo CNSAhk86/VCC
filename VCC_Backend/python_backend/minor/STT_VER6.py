@@ -16,8 +16,8 @@ MAX_QUEUE_SIZE = 10
 def get_user_credentials():
     api_key = input("Enter your API key (or type Dev's key if you want to use the default): ")
     if api_key == 'Dev_Hana':
-        api_key = 'sk-proj-791sIvdv01kwVTveNwELT3BlbkFJiu6rvaxwA5N5EcTaLLJV'
-        assistant_id = 'asst_yJuMr3KHNBUDIXgBhhO14A8f'
+            api_key = 'API 키 입력'
+            ASSISTANT_ID = '어시스턴트 키 입력'
     else:
         assistant_id = input("Enter your Assistant ID: ")
     return api_key, assistant_id

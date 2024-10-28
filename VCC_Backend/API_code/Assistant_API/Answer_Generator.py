@@ -1,8 +1,8 @@
 import time
 from openai import OpenAI
 
-api_key = 'sk-proj-791sIvdv01kwVTveNwELT3BlbkFJiu6rvaxwA5N5EcTaLLJV'
-ASSISTANT_ID = 'asst_yJuMr3KHNBUDIXgBhhO14A8f'
+api_key = 'API 키 입력'
+ASSISTANT_ID = '어시스턴트 키 입력'
 
 # OpenAI 클라이언트 초기화
 client = OpenAI(api_key=api_key)
@@ -40,7 +40,6 @@ def print_messages(thread):
         print(f"[{role}]\n{text}\n")
     print("---" * 20)
 
-# 사용자 입력을 받고, 스레드를 생성한 후 실행합니다.
 inputs = [
     "GPT4 프롬프팅 테스트"
 ]
