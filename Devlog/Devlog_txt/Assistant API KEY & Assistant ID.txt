@@ -1,0 +1,4 @@
+<Assistant API KEY & Assistant ID>
+
+Assistant API KEY : sk-proj-791sIvdv01kwVTveNwELT3BlbkFJiu6rvaxwA5N5EcTaLLJV
+Assistant ID : asst_yJuMr3KHNBUDIXgBhhO14A8f
