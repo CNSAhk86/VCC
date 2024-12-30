@@ -20,24 +20,24 @@ VirtualCharacterChat (VCC) is an interactive platform that allows users to commu
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-repository/vcc.git
+git clone https://github.com/devhana86/vcc.git
 cd vcc
 ```
 
 ### Step 2: Install Node.js Dependencies
 ```bash
-cd nodejs
+cd socket_server
 npm install
 ```
 
 ### Step 3: Install Python Dependencies
 ```bash
-cd ../python
+cd ../python_backend/main
 pip install -r requirements.txt
 ```
 
 ### Step 4: Unity Configuration
-- Open the `Unity/Game_UI` project in Unity.
+- Open the `Game_UI` project in Unity.
 - Ensure all assets are correctly loaded.
 
 ### Step 5: Prepare Style-BERT-VITS2
@@ -71,16 +71,9 @@ Execute `Server.bat` in the prepared `style-bert-vits2` directory.
 - **Customizable Models**: Includes a free Live2D model for character representation (ensure compliance with licensing for commercial use).
 
 ## Notes and Limitations
-1. **Development State**: This project is incomplete and requires further development for production use.
-2. **Licensing**: The included Live2D model is for non-commercial use only. Replace or verify the license before any commercial deployment.
-3. **ChatGPT API Dependency**: A valid API key for ChatGPT is required.
-
-## Contribution
-We welcome contributions! Please follow these steps:
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes with clear messages.
-4. Submit a pull request.
+- **Development State**: This project is incomplete and requires further development for production use.
+- **Licensing**: The included Live2D model is for non-commercial use only. Replace or verify the license before any commercial deployment.
+- **ChatGPT API Dependency**: A valid API key for ChatGPT is required.
 
 ## Contact
 For any issues or queries, please reach out to [godbyeonghunhan@gmail.com].
