@@ -1,0 +1,9 @@
+asyncio
+websockets
+soundfile
+sounddevice
+opencv-python-headless
+openai
+requests
+pyaudio
+wave
